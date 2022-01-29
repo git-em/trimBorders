@@ -49,7 +49,7 @@ else
         Rename... 'filename$'
     endif
 
-@refreshVars 
+@refreshVars
 
     if skip_beginning > 0
         skipBegLeftPoint = Get end point... 'tier' 'skip_beginning'
@@ -72,7 +72,7 @@ else
         removeObject: "TextGrid " + filename$
 
         if debug = 0
-            removeObject: "TextGrid skipBegLeftObj", "TextGrid skipBegRightObj" 
+            removeObject: "TextGrid skipBegLeftObj", "TextGrid skipBegRightObj"
         endif
 
         ### WAV skip beginning
